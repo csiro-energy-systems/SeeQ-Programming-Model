@@ -1,4 +1,4 @@
-from SeeQ import *
+from seeq.SeeQ import *
 
 AHU_Tsa = CQ(description="Supply Air Temperature in the AHU",
              unit=UNIT.DEG_C,
