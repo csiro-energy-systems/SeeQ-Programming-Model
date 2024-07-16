@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "seeq-programming-model"
+version = "0.1.0"
+description = ""
+authors = ["Dimitrios Mavrokapnidis"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+sympy = "^1.13.0"
+rdflib = "^7.0.0"
+pyshacl = "^0.26.0"
+numpy = "<2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
