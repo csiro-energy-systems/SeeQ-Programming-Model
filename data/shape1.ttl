@@ -3,12 +3,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://brickschema.org/schema/Brick/GraphCQ#AHU_hasPart_Mixed_Damper_hasPoint_Mixed_Air_Temperature_Sensor> a sh:NodeShape ;
-    sh:property [ sh:path brick:hasPart ;
-            sh:qualifiedMinCount 1 ;
-            sh:qualifiedValueShape [ sh:class brick:Mixed_Damper ] ],
-        [ sh:name "point" ;
+    sh:property [ sh:name "point" ;
             sh:path brick:hasPoint ;
             sh:qualifiedMinCount 1 ;
-            sh:qualifiedValueShape [ sh:class brick:Mixed_Air_Temperature_Sensor ] ] ;
+            sh:qualifiedValueShape [ sh:class brick:Mixed_Air_Temperature_Sensor ] ],
+        [ sh:path brick:hasPart ;
+            sh:qualifiedMinCount 1 ;
+            sh:qualifiedValueShape [ sh:class brick:Mixed_Damper ] ] ;
     sh:targetClass brick:AHU .
 

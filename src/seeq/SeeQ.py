@@ -26,7 +26,7 @@ from typing import Tuple, Callable, List, Dict
 from rdflib import Namespace, Graph, BNode, Literal, URIRef
 from rdflib.term import Node
 from dataclasses import dataclass, field
-from shape_to_query import shape_to_query
+from seeq.shape_to_query import shape_to_query
 import pyshacl
 from typing import Literal, Tuple, Callable
 from rdflib import Namespace, Graph, BNode, Literal, URIRef
