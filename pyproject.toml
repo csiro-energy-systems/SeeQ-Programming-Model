@@ -9,7 +9,7 @@ readme = "README.md"
 python = ">=3.9,<3.13"
 sympy = "^1.13.0"
 rdflib = "^7.0.0"
-pyshacl = "^0.26.0"
+pyshacl = "<0.26"
 numpy = "<2.0"
 
 
